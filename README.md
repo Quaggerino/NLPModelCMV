@@ -18,7 +18,6 @@ Esta guía describe los pasos necesarios para entrenar un modelo de clasificaci�
     
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f7aede-7011-479c-99d5-395a9bffa1f7/589b4067-1deb-4e04-967a-fa9c406f5330/Untitled.png)
     
 2. **Configuración de Multiprocessing y CUDA:**
     - Establezca el método de inicio de `multiprocessing` y verifique la disponibilidad de CUDA para usar la GPU.
@@ -30,7 +29,6 @@ Esta guía describe los pasos necesarios para entrenar un modelo de clasificaci�
     
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f7aede-7011-479c-99d5-395a9bffa1f7/beec8851-68ca-4a5f-8293-ecd132c7cd23/Untitled.png)
     
 
 ### Preparación de Datos
@@ -45,7 +43,6 @@ Esta guía describe los pasos necesarios para entrenar un modelo de clasificaci�
     ```
     
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f7aede-7011-479c-99d5-395a9bffa1f7/c923ab09-bca8-45b0-bf9d-0394835f903f/Untitled.png)
 
 1. **Tokenización y Dataset:**
     - Utilice `BertTokenizer` para tokenizar los datos y prepare un `Dataset` personalizado para PyTorch.
@@ -90,7 +87,6 @@ Esta guía describe los pasos necesarios para entrenar un modelo de clasificaci�
     
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f7aede-7011-479c-99d5-395a9bffa1f7/4e62a19c-c8d8-4efd-82bf-0c17caafe19e/Untitled.png)
     
 2. **Evaluación y Ajustes:**
     - Evalúe el modelo con el conjunto de validación para determinar la precisión.
@@ -111,7 +107,6 @@ Esta guía describe los pasos necesarios para entrenar un modelo de clasificaci�
     
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f7aede-7011-479c-99d5-395a9bffa1f7/1cb9b1b7-2914-4cd8-ab68-0106be0d3b1c/Untitled.png)
     
     > 'excelente servicio del cirujano medico' is predicted as Positivo.
     
